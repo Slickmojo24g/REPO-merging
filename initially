@@ -1,0 +1,23 @@
+Step 1: Clone one of the repositories (say repo1).
+
+git clone <https/ssh-link-for-repo1>
+
+
+Step 2: Create another remote in this clone which points to repo2-our second repository.
+
+git remote add <your-custom-remote-name> <https/ssh-for-repo2>
+
+
+Now you will have the following remotes
+
+origin <repo-1-link> (fetch)
+origin <repo-1-link> (push)
+your-custom-remote-name <repo-2-link> (fetch)
+your-custom-remote-name <repo-2-link> (push)
+
+
+
+
+
+
+
